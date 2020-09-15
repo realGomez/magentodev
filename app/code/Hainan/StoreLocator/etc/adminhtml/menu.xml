@@ -1,0 +1,32 @@
+<!-- File: app/code/Pulsestorm/MenuTutorial/etc/adminhtml/menu.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Hainan_StoreLocator::storelocator_menu"
+             title="Store Locator"
+             module="Hainan_StoreLocator"
+             sortOrder="10"
+             parent="Hainan_Sea::sea"
+             resource="Hainan_StoreLocator::store_location" />
+        <add id="Hainan_StoreLocator::storelocator_location"
+             title="Manage Locations"
+             module="Hainan_StoreLocator"
+             sortOrder="0"
+             parent="Hainan_StoreLocator::storelocator_menu"
+             action="admin_storelocator/location"
+             resource="Hainan_StoreLocator::store_location" />
+        <add id="Hainan_StoreLocator::storelocator_stores"
+             title="Manage Stores"
+             module="Hainan_StoreLocator"
+             sortOrder="10"
+             parent="Hainan_StoreLocator::storelocator_menu"
+             action="admin_storelocator/stores"
+             resource="Hainan_StoreLocator::store_location" />
+        <add id="Hainan_StoreLocator::storelocator_settings"
+             title="Settings"
+             module="Hainan_StoreLocator"
+             sortOrder="20"
+             parent="Hainan_StoreLocator::storelocator_menu"
+             action="adminhtml/system_config/edit/section/storelocator"
+             resource="Hainan_StoreLocator::config" />
+    </menu>
+</config>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<components xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_definition.xsd">
+<!--     <hainan_simple class="Hainan\Sea\Component\Simple">-->
+<!--          <argument name="data" xsi:type="array">-->
+<!--               <item name="template" xsi:type="string">templates/different</item>-->
+<!--              <item name="config" xsi:type="array">-->
+<!--&lt;!&ndash;                  <item name="component" xsi:type="string">Hainan_Sea/js/simple_component</item>&ndash;&gt;-->
+<!--                  <item name="component" xsi:type="string">uiComponent</item>-->
+<!--              </item>-->
+<!--          </argument>-->
+<!--     </hainan_simple>-->
+    <hainan_valid>
+
+    </hainan_valid>
+</components>
